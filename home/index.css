@@ -46,6 +46,7 @@
 .generalInfo > span {
     display: flex;
     align-items: center;
+    font-size: x-large;
     margin-top: -2em;
 }
 

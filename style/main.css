@@ -3,7 +3,8 @@ body {
     background-color: transparent;
     background-image: url("../assets/images/background.jpg");
     background-size: cover;
-
+    font-family: body;
+    
     display: grid;
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 20% 60% 20%;
@@ -15,6 +16,7 @@ body {
 
 footer {
     grid-area: footer;
+    color: #e5e5e5;
 }
 
 main {
@@ -93,4 +95,9 @@ main {
 @font-face {
     font-family: headers;
     src: url(../assets/fonts/game_over.woff);
+}
+
+@font-face {
+    font-family: body;
+    src: url("../assets/fonts/AmaticSC-Regular.woff");
 }
