@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: transparent;
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+        "header nav nav"
+        "main main aside"
+        "footer footer footer";
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+    grid-area: main;
+}
+
+.title-card {
+    background-color: #000000;
+    opacity: 90%;
+    margin: 0;
+    color: #f29602;
+    font-family: headers;
+    grid-area: header;
+    font-size: x-large;
+}
+
+.title-card > a {
+    text-decoration: none;
+}
+
+.title-card > a > h1 {
+    margin: 0;
+}
+
+.navigation {
+    margin: 0;
+    margin-right: -12em;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas: "port blog contact";
+}
+
+.link {
+    margin: 0;
+    opacity: 90%;
+    font-family: headers;
+    font-size: x-large;
+    background-color: #000000;
+    color: #f29602;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link > h2 {
+    margin: 0;
+}
+
+
+.link:hover {
+    border-bottom: 0.5em solid #32cd32;
+}
+
+.link #home {
+    grid-area: home;
+}
+
+.link #port {
+    grid-area: port;
+}
+
+.link #blog {
+    grid-area: blog;
+}
+
+.link #contact {
+    grid-area: contact;
+}
+
+#contact {
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+}
+
+
+@font-face {
+    font-family: headers;
+    src: url(../assets/fonts/game_over.woff);
+}

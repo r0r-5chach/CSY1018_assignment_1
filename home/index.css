@@ -1,0 +1,109 @@
+.bio {
+    grid-area: aside;
+    background-color: #14213d;
+    opacity: 90%;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+    text-align: center;
+}
+
+.bio > h1 {
+    margin: 0;
+}
+
+.bio > p {
+    margin: 0;
+}
+
+.profileImg {
+    content: url("../assets/images/profileImage.png");
+    size: 10%;
+    max-height: 20em;
+    border: solid #f29602;
+    border-radius: 1000%;
+}
+
+.monikers {
+    font-family: bio;
+    font-size: x-large;
+    color: #E5E5E5;
+}
+
+.monikers > h1 {
+    margin-bottom: 0;
+}
+
+.monikers > p {
+    margin-top: 0;
+}
+
+.generalInfo {
+    text-align: left;
+    margin-left: 6em;
+    color: #E5E5E5;
+}
+
+.generalInfo > span {
+    display: flex;
+    align-items: center;
+    margin-top: -2em;
+}
+
+.title {
+    color: #E5E5E5;
+    font-family: bio;
+    font-size: xx-large;
+}
+
+.languages > span {
+    display: flex;
+}
+
+.languages > span > a > h2 {
+    margin-top: 0.5em;
+    margin-left: 0.25em;
+}
+
+.languages > span > a {
+    margin: 0;
+    text-decoration: 0;
+    color: #E5E5E5;
+}
+
+.languages > ul > li {
+    margin-left: 1em;
+    font-family: bio;
+    list-style: none;
+}
+
+.generalInfo > span > p {
+    margin-left: 0.5em;
+}
+
+@font-face {
+    font-family: bio;
+    src: url(../assets/fonts/RafflesBryantRegular.woff);
+}
+
+.langList{
+    display: none;
+    pointer-events: none;
+}
+
+.close {
+    display: none;
+    font-family: bio;
+}
+
+#langDrop:target .langList {
+    display: flex;
+    pointer-events: all;
+}
+
+#langDrop:target .close {
+    display: block;
+}
+
+main > h1 {
+    color: #E5E5E5;
+}
