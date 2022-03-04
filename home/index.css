@@ -55,22 +55,22 @@
     font-size: xx-large;
 }
 
-.languages > span {
+.dropdown > span {
     display: flex;
 }
 
-.languages > span > a > h2 {
+.dropdown > span > a > h2 {
     margin-top: 0.5em;
     margin-left: 0.25em;
 }
 
-.languages > span > a {
+.dropdown > span > a {
     margin: 0;
     text-decoration: 0;
     color: #E5E5E5;
 }
 
-.languages > ul > li {
+.dropdown > ul > li {
     margin-left: 1em;
     font-family: bio;
     list-style: none;
@@ -85,7 +85,7 @@
     src: url(../assets/fonts/RafflesBryantRegular.woff);
 }
 
-.langList{
+.langList {
     display: none;
     pointer-events: none;
 }
@@ -101,6 +101,25 @@
 }
 
 #langDrop:target .close {
+    display: block;
+}
+
+.qualList {
+    display: none;
+    pointer-events: none;
+    margin-top: -1em;
+}
+
+.qualList > li {
+    font-size: larger;
+}
+
+#qualDrop:target .qualList {
+    display: block;
+    pointer-events: all;
+}
+
+#qualDrop:target .close {
     display: block;
 }
 
