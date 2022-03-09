@@ -23,12 +23,23 @@ main {
 }
 
 .navigation {
+    top: 0em;
     margin: 0;
     margin-right: -24em;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-areas: "home port blog contact";
-    z-index: 1000;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "home port blog contact arrow";
+    position: sticky;
+    transform: translate(-95%,0);
+    transition: transform 1s;
+}
+
+.navigation:hover {
+    transform: translate(0,0);
+}
+
+.navigation:hover .arrow {
+    opacity: 0;
 }
 
 .link {
@@ -56,25 +67,48 @@ nav > .link:hover {
     border-bottom: 0.1em solid #32cd32;
 }
 
-.link #home {
+#home:hover {
+    border-bottom: 0.1em solid #000000;
+}
+
+#home {
     grid-area: home;
 }
 
-.link #port {
+#port {
     grid-area: port;
 }
 
-.link #blog {
+#blog {
     grid-area: blog;
 }
 
-.link #contact {
-    grid-area: contact;
-}
-
 #contact {
+    grid-area: contact;
     border-top-right-radius: 10em;
     border-bottom-right-radius: 10em;
+}
+
+#arrow {
+    
+    grid-area: arrow;
+}
+
+.arrow {
+    margin-left: 6em;
+    margin-top: 1em;
+    border:0.5em solid #f29602;
+    border-width: 0em 0.5em 0.5em 0em;
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    padding: 0.5em;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.right {
+    transform: rotate(-45deg);
 }
 
 .moreInfo {
