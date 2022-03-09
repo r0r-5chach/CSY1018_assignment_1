@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: transparent;
     background-image: url("../assets/images/background.jpg");
     background-size: cover;
     font-family: body;
@@ -9,7 +8,7 @@ body {
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 20% 60% 20%;
     grid-template-areas:
-        "header nav nav"
+        "nav nav nav"
         "main main aside"
         "footer footer footer";
 }
@@ -23,31 +22,13 @@ main {
     grid-area: main;
 }
 
-.title-card {
-    background-color: #000000;
-    opacity: 90%;
-    margin: 0;
-    color: #f29602;
-    font-family: headers;
-    grid-area: header;
-    font-size: x-large;
-}
-
-.title-card > a {
-    text-decoration: none;
-}
-
-.title-card > a > h1 {
-    margin: 0;
-}
-
 .navigation {
     margin: 0;
-    margin-right: -12em;
+    margin-right: -24em;
     display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 100%;
-    grid-template-areas: "port blog contact";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "home port blog contact";
+    z-index: 1000;
 }
 
 .link {
@@ -63,6 +44,7 @@ main {
     color: #f29602;
     text-decoration: none;
     text-align: center;
+    border-bottom: 0.1em solid #000000;
 }
 
 .link > h2 {
@@ -71,7 +53,7 @@ main {
 
 
 nav > .link:hover {
-    border-bottom: 0.5em solid #32cd32;
+    border-bottom: 0.1em solid #32cd32;
 }
 
 .link #home {

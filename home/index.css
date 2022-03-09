@@ -87,6 +87,7 @@
 }
 
 .langList {
+    margin-top: -1em;
     display: none;
     pointer-events: none;
 }
@@ -126,6 +127,8 @@
 
 main {
     color: #E5E5E5;
-    font-size: larger;
-    background-color: rgba(0, 0, 0, 0.3);
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
 }
