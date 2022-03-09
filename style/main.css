@@ -113,6 +113,8 @@ nav > .link:hover {
 
 .moreInfo {
     position: relative;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .moreInfo:hover .extraInfo {
@@ -123,8 +125,8 @@ nav > .link:hover {
     white-space: nowrap;
     margin-top: -1.2em;
     margin-left: -2em;
-    background-color: #000000;
-    color: #e5e5e5;
+    background-color: #e5e5e5;
+    color: #000000;
     display: none;
     z-index: 1000;
     position: absolute;
@@ -136,6 +138,11 @@ nav > .link:hover {
 }
 
 @font-face {
-    font-family: body;
+    font-family: headings;
     src: url("../assets/fonts/AmaticSC-Regular.woff");
+}
+
+@font-face {
+    font-family: body;
+    src: url("../assets/fonts/Yomogi-Regular.woff");
 }

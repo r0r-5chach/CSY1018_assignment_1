@@ -127,8 +127,12 @@
 
 main {
     color: #E5E5E5;
-    font-size: x-large;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.75);
     border-top-right-radius: 10em;
     border-bottom-right-radius: 10em;
+}
+
+main > h1 {
+    max-width: 20em;
 }
