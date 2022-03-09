@@ -124,6 +124,8 @@
     display: block;
 }
 
-main > h1 {
+main {
     color: #E5E5E5;
+    font-size: larger;
 }
+

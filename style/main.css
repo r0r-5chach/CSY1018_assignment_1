@@ -51,6 +51,10 @@ main {
 }
 
 .link {
+    color: #e5e5e5;
+}
+
+.nav.link {
     margin: 0;
     opacity: 90%;
     font-family: headers;
@@ -66,7 +70,7 @@ main {
 }
 
 
-.link:hover {
+nav > .link:hover {
     border-bottom: 0.5em solid #32cd32;
 }
 
@@ -91,6 +95,24 @@ main {
     border-bottom-right-radius: 10em;
 }
 
+.moreInfo {
+    position: relative;
+}
+
+.moreInfo:hover .extraInfo {
+    display:inline-block;
+}
+
+.extraInfo {
+    white-space: nowrap;
+    margin-top: -1.2em;
+    margin-left: -2em;
+    background-color: #000000;
+    color: #e5e5e5;
+    display: none;
+    z-index: 1000;
+    position: absolute;
+}
 
 @font-face {
     font-family: headers;
