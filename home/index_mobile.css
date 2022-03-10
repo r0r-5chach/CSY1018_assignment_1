@@ -121,5 +121,14 @@ nav > .link:hover {
 
 .generalInfo {
     margin-top: 1em;
-    margin-left: 1em;
+    margin-left: 2em;
+}
+
+.moreInfo:hover {
+    cursor: initial;
+}
+
+.langList {
+    margin-left: -5em;
+    font-size: small;
 }

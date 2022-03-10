@@ -136,3 +136,7 @@ main {
 main > h1 {
     max-width: 20em;
 }
+
+.hidenav {
+    display: none;
+}
