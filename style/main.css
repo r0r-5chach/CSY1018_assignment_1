@@ -124,12 +124,13 @@ nav > .link:hover {
 .extraInfo {
     white-space: nowrap;
     padding: 0.2em;   
-    margin-top: -1.2em;
+    margin-top: -1.6em;
     margin-left: -2em;
     background-color: #e5e5e5;
     color: #000000;
     display: none;
     z-index: 1000;
+    border-radius: 10em;
     position: absolute;
 }
 
