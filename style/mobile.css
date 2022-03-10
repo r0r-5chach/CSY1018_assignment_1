@@ -1,7 +1,119 @@
-.bio {
+.arrow {
     display: none;
 }
 
-.navigation {
+body {
+    grid-template-areas: 
+    
+    "main main main"
+    "aside aside aside"
+    "footer footer footer";
+}
+
+.moreInfo:hover .extraInfo{
     display: none;
+}
+
+main {
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.bio {
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+}
+
+.navigation {
+    min-width: 10em;
+    width: 200%;
+    height: 50vh;
+    white-space: nowrap;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:
+    "close"
+    "home"
+    "port"
+    "blog"
+    "contact";
+    position: fixed;
+    z-index: 1000;
+    top: -2.2em;
+}
+
+.shownav {
+    z-index: 1000;
+    margin-left: 0.1em;
+    margin-top: 0.1em;
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    position: fixed;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+}
+
+.hidenav {
+    padding-right: 0.1em;
+    text-align: right;
+    opacity: 90%;
+    background-color: #000000;
+    z-index: 1;
+    display: block;
+    font-size: larger;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    grid-area: close;
+    align-self: flex-end;
+}
+
+.shownav:before {
+    content:'';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-top: 0.2em solid white;
+}
+
+#clicked .shownav {
+    display: block;
+}
+
+#clicked .hidenav {
+    display: none;
+}
+
+#clicked:target .shownav {
+    display: none;
+}
+
+#clicked:target .hidenav {
+    display: block;
+}
+
+#clicked:target > .navigation{
+    transform: translate(0%,0);
+    display: grid;
+}
+
+#contact{
+    border-top-right-radius: 0em;
+}
+
+.link {
+    max-height: 4em;
+}
+
+nav > .link:hover {
+    border-right: 0.1em solid #32cd32;
+    border-bottom: 0.1em solid #000000;
+}
+
+#home:hover {
+    border-right: none;
+}
+
+.navigation:hover {
+    transform: translate(-95%,0);
 }
