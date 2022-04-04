@@ -21,18 +21,34 @@ main {
 }
 .right {
     margin-top: 2em;
-    margin-left: 40em;
+    margin-left: 20em;
     border-top-left-radius: 10em;
     border-bottom-left-radius: 10em;
-    padding-left: 2.5em;
+    padding-left: 5em;
+    padding-bottom: 1em;
 }
 
 .left {
     margin-top: 2em;
-    margin-right: 40em;
+    margin-right: 20em;
     border-top-right-radius: 10em;
     border-bottom-right-radius: 10em;
     padding-left: 0.5em;
+    padding-bottom: 1em;
+}
+
+.project > img {
+    border-radius: 1em;
+    max-width: 50em;
+    float: left;
+    margin-right: 1em;
+}
+
+.project > video {
+    max-width: 50em;
+    float: left;
+    border-radius: 1em;
+    margin-right: 1em;
 }
 
 #ardent {
