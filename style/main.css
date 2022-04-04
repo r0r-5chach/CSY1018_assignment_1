@@ -25,7 +25,8 @@ main {
 .navigation {
     top: 0em;
     margin: 0;
-    margin-right: -24em;
+    grid-area: nav;
+    width: 80em;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-areas: "home port blog contact arrow";
@@ -95,7 +96,7 @@ nav > .link:hover {
 }
 
 .arrow {
-    margin-left: 6em;
+    margin-left: 12em;
     margin-top: 1em;
     border:0.5em solid #f29602;
     border-width: 0em 0.5em 0.5em 0em;
@@ -105,11 +106,9 @@ nav > .link:hover {
     padding: 0.5em;
     opacity: 1;
     transition: opacity 1s ease-in;
-}
-
-.right {
     transform: rotate(-45deg);
 }
+
 
 .moreInfo {
     position: relative;
@@ -147,4 +146,8 @@ nav > .link:hover {
 @font-face {
     font-family: body;
     src: url("../assets/fonts/Yomogi-Regular.woff");
+}
+
+.hidenav {
+    display: none;
 }

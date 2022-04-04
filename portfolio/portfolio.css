@@ -1,0 +1,48 @@
+body {
+    grid-template-areas:
+        "nav nav nav"
+        "main main main"
+        "footer footer footer";
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "ardent"
+    "efron"
+    "website"
+    ;
+}
+
+.project {
+    background-color: rgba(0, 0, 0, 70%);
+    color: #e5e5e5;
+}
+.right {
+    margin-top: 2em;
+    margin-left: 40em;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+    padding-left: 2.5em;
+}
+
+.left {
+    margin-top: 2em;
+    margin-right: 40em;
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+    padding-left: 0.5em;
+}
+
+#ardent {
+    grid-area: ardent;
+}
+
+#efron {
+    grid-area: efron;
+}
+
+#website {
+    grid-area: website;
+}
