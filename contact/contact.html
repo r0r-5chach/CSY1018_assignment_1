@@ -10,7 +10,7 @@
 
     <base href="../">
 
-    <title>J-Pez Development</title>
+    <title>Contact: J-Pez Development</title>
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 
     <link rel="stylesheet" href="style/main.css" media = "screen">
@@ -30,6 +30,34 @@
 
     <main>
         <a class="shownav" href="contact/contact.html#clicked"></a>
+        <form action="mailto:joshua.perry21@my.northampton.ac.uk?subject=Inquiry from website" method="POST">
+            <section id="contact_details">
+                <label for="contact_details">Contact Details</label>
+                <input type="text" name="first_name" placeholder="First name"/>
+                <input type="text" name="last_name" placeholder="Last name"/>
+                <input type="email" name="email_address" placeholder="Email address (e.g. someone@domain.com)"/>
+                <input type="tel" name="phone_number" placeholder="Phone Number (e.g. +44 1632 960501)"/>
+            </section>
+
+            <section id="contact_reason">
+                <label for="contact_reason" class="header">Reason for contacting:</label>
+                <section id="reason_answer">
+                    <label for="business_radio" class="label">Business</label>
+                    <input type="radio" checked="checked" name="contact_type" value="business" id="business_radio"/>
+                    
+                    <label for="academic_radio" class="label">Academic</label>
+                    <input type="radio" name="contact_type" value="academic" id="academic_radio"/>
+                    
+                    <label for="personal_radio" class="label">Personal</label>
+                    <input type="radio" name="contact_type" value="personal" id="personal_radio"/>
+                </section>
+            </section>
+
+            <section id="contact_body">
+                <textarea placeholder="Enter your message or query here..."></textarea>
+            </section>
+            <input type="submit" name="submit" value="submit"/>
+        </form>
     </main>
 
     <footer>

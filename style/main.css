@@ -83,7 +83,6 @@ nav > .link:hover {
 #blog {
     grid-area: blog;
 }
-
 #contact {
     grid-area: contact;
     border-top-right-radius: 10em;
