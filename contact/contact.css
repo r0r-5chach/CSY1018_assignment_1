@@ -3,18 +3,29 @@ form {
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 30% 30% 10%;
     gap: 1em;
+    margin-left: 38em;
+    background-color: rgba(0, 0, 0, 90%);
+    border-radius: 1em;
+    min-width: 42em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-input[type="text"] {
-    border: none;
+input {
+    border-radius: 1em;
+    padding-left: 0.5em;
 }
 
-input[type="email"] {
+textarea {
+    border-radius: 1em;
     border: none;
+    max-width: 41em;
+    font-family: body;
 }
 
-input[type="tel"] {
+input {
     border: none;
+    font-family: body;
 }
 
 input[type="radio"] {
@@ -51,3 +62,10 @@ input[type="submit"] {
     grid-row: 4;
     max-width: 10em;
 }
+
+#reason_answer {
+    margin-left: 1em;
+    min-width: 40em;
+    padding-top: 0.5em;
+}
+
