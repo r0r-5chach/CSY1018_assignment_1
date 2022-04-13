@@ -5,6 +5,7 @@
     padding-left: 1em;
     padding-right: 1em;
     border-radius: 2em;
+    transition: transform 1s;
 }
 
 .blog_image {
@@ -19,36 +20,36 @@
 
 .blog_post#first:focus-within {
     transform: scale(180%, 180%) translate(20em, 6em);
-    transition: transform 60ms;
+    transition: transform 1s;
 }
 
 .blog_post#second:focus-within {
     transform: scale(180%, 180%) translate(0em, 6em);
-    transition: transform 60ms;
+    transition: transform 1s;
 
 }
 
 .blog_post#third:focus-within {
     transform: scale(180%, 180%) translate(-20em, 6em);
-    transition: transform 60ms;
+    transition: transform 1s;
 
 }
 
 .blog_post#fourth:focus-within {
     transform: scale(180%, 180%) translate(20em, -13em);
-    transition: transform 60ms;
+    transition: transform 1s;
 
 }
 
 .blog_post#fifth:focus-within {
     transform: scale(180%, 180%) translate(0em, -13em);
-    transition: transform 60ms;
+    transition: transform 1s;
 
 }
 
 .blog_post#sixth:focus-within {
     transform: scale(180%, 180%) translate(-20em, -13em);
-    transition: transform 60ms;
+    transition: transform 1s;
 
 }
 
