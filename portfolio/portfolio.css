@@ -16,7 +16,7 @@ main {
 }
 
 .project {
-    background-color: rgba(0, 0, 0, 70%);
+    background-color: rgba(0, 0, 0, 80%);
     color: #e5e5e5;
 }
 .right {
@@ -30,7 +30,7 @@ main {
 
 .left {
     margin-top: 2em;
-    margin-right: 20em;
+    margin-right: 22em;
     border-top-right-radius: 10em;
     border-bottom-right-radius: 10em;
     padding-left: 0.5em;
