@@ -21,11 +21,13 @@ textarea {
     border: none;
     max-width: 41em;
     font-family: body;
+    accent-color: #f29602;
 }
 
 input {
     border: none;
     font-family: body;
+    accent-color: #f29602;
 }
 
 input[type="radio"] {
