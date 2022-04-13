@@ -1,0 +1,53 @@
+form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 30% 10%;
+    gap: 1em;
+}
+
+input[type="text"] {
+    border: none;
+}
+
+input[type="email"] {
+    border: none;
+}
+
+input[type="tel"] {
+    border: none;
+}
+
+input[type="radio"] {
+    accent-color: #f29602;
+}
+
+#contact_details {
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 0.2em;
+}
+
+#contact_details > input {
+    min-width: 40em;
+}
+
+#contact_reason {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 0.2em;
+}
+
+#contact_body {
+    grid-row: 3;
+}
+
+#contact_body > textarea {
+    min-width: 40em;
+}
+
+input[type="submit"] {
+    grid-row: 4;
+    max-width: 10em;
+}
