@@ -50,8 +50,8 @@ main {
     width: 1.25em;
     display: block;
     position: fixed;
-    border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
+    border-top: 0.2em solid #f29602;
+    border-bottom: 0.2em solid #f29602;
 }
 
 .hidenav {
@@ -74,7 +74,7 @@ main {
     position: absolute;
     width: 1.25em;
     margin-top: 0.3em;
-    border-top: 0.2em solid white;
+    border-top: 0.2em solid #f29602;
 }
 
 #clicked .shownav {

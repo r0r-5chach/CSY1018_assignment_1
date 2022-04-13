@@ -1,0 +1,71 @@
+.blog_post {
+    background-color: rgba(0, 0, 0, 80%);
+    margin-left: 10em;
+    min-width: 25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2em;
+}
+
+.blog_image {
+    max-width: 10em;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 1em;
+}
+
+.blog_post#first:focus-within {
+    transform: scale(180%, 180%) translate(20em, 6em);
+    transition: transform 60ms;
+}
+
+.blog_post#second:focus-within {
+    transform: scale(180%, 180%) translate(0em, 6em);
+    transition: transform 60ms;
+
+}
+
+.blog_post#third:focus-within {
+    transform: scale(180%, 180%) translate(-20em, 6em);
+    transition: transform 60ms;
+
+}
+
+.blog_post#fourth:focus-within {
+    transform: scale(180%, 180%) translate(20em, -13em);
+    transition: transform 60ms;
+
+}
+
+.blog_post#fifth:focus-within {
+    transform: scale(180%, 180%) translate(0em, -13em);
+    transition: transform 60ms;
+
+}
+
+.blog_post#sixth:focus-within {
+    transform: scale(180%, 180%) translate(-20em, -13em);
+    transition: transform 60ms;
+
+}
+
+.blog_post:focus-within > button.arrow {
+    transform: rotate(45deg);
+    transition: transform 1s;
+}
+
+.blog_post:focus-within {
+    z-index: 100;
+}
+
+button.arrow {
+    background-color: transparent;
+    margin: 0;
+    transform: rotate(225deg);
+    transition: transform 1s;
+}
+
+
