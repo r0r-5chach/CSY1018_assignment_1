@@ -11,6 +11,11 @@
     max-width: 10em;
 }
 
+#first > .blog_image {
+    min-height: 4em;
+    min-width: 24em;
+}
+
 .blog {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
