@@ -14,8 +14,22 @@ body {
 }
 
 footer {
+    background-color: rgba(255, 255, 255, 60%);
     grid-area: footer;
-    color: #e5e5e5;
+    display: grid;
+    grid-template-columns: 15% 10% 10% 10% 10% 10%;
+}
+
+footer > a {
+    font-family: headers;
+    text-decoration: none;
+    font-size: larger;
+    color: #14213d;
+}
+
+footer > a > p {
+    margin-top: 1.8em;
+    font-family: body;
 }
 
 main {
@@ -149,4 +163,11 @@ nav > .link:hover {
 
 .hidenav {
     display: none;
+}
+
+#footer_logo {
+    margin-top: 1.6em;
+    margin-right: 0.2em;
+    float: left;
+    max-width: 2em;
 }
