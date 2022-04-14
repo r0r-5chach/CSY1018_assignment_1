@@ -1,0 +1,16 @@
+main {
+    min-height: 50em;
+}
+
+img {
+    max-height: 30em;
+    border-radius: 5em;
+}
+
+.notice {
+    background-color: #14213d;
+    max-width: 20em;
+    padding: 2em;
+    margin-left: 45em;
+    border-radius: 5em;
+}
