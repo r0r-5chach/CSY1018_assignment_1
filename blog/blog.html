@@ -33,9 +33,18 @@
         <section class="blog">
             <section class="blog_post" id="first">
                 <button class="arrow"></button>
-                <h1 class="blog_title">Binary Conversions</h1>
+                <h1 class="blog_title">Binary to Denary Conversions</h1>
                 <img class="blog_image" src="assets/blog/images/first.png"/>
-                <p class="blog_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste mollitia repellat, possimus nesciunt aspernatur quisquam doloremque! Illo, debitis distinctio, nostrum voluptatum possimus minus odio quaerat quia fugit maiores porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quas recusandae dolorum sunt porro vero, temporibus nesciunt cum, sint iure quis suscipit dignissimos maiores cumque debitis nihil, eveniet dolores nemo.</p>
+                <p class="blog_content">The image above is an example of a table we can use to convert 8-bit binary numbers (referred to as bytes) to denary.
+                    Each individual bit is put into each column in the same order as written. Any columns with a 1 should have their values added together. 
+                    The resulting value is the denary conversion.
+                    
+                    To convert from denary to binary, take the number you wish to convert and starting in the left most column try subtracting the number from 
+                    the one you wish to convert. If it can be done without producing a negative put a 1 in the column, if you cannot, put a 0. Once the remainder is 0,
+                    add 0s to any remaining columns. The resulting number is the binary conversion.
+                    
+                    If you want to convert above 8-bit numbers, each column's denary value is calculated as 2 raised to the power of the column starting from the right and at 0.
+                    </p>
                 <p class="blog_details"></p>
             </section>
             <section class="blog_post" id="second">
