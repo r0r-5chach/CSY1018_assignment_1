@@ -24,6 +24,10 @@
     padding-left: 8em;
 }
 
+#fourth > .blog_image {
+    padding-left: 7em;
+}
+
 .blog {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
