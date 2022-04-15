@@ -3,7 +3,7 @@ form {
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 30% 30% 10%;
     gap: 1em;
-    margin-left: 38em;
+    margin-left: 27em;
     background-color: rgba(0, 0, 0, 90%);
     border-radius: 1em;
     min-width: 42em;
@@ -14,6 +14,7 @@ form {
 input {
     border-radius: 1em;
     padding-left: 0.5em;
+    background-color: #181a1b;
 }
 
 textarea {
@@ -22,12 +23,17 @@ textarea {
     max-width: 41em;
     font-family: body;
     accent-color: #f29602;
+    background-color: #181a1b;
 }
 
 input {
     border: none;
     font-family: body;
     accent-color: #f29602;
+}
+
+input::placeholder {
+    color: #d8d4cf;
 }
 
 input[type="radio"] {
@@ -69,5 +75,9 @@ input[type="submit"] {
     margin-left: 1em;
     min-width: 40em;
     padding-top: 0.5em;
+}
+
+footer > a {
+    margin-left: 1em;
 }
 

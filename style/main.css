@@ -3,7 +3,7 @@ body {
     background-image: url("../assets/images/background.jpg");
     background-size: cover;
     font-family: body;
-    
+    color:  #e5e5e5;
     display: grid;
     grid-template-columns: 20% 40% 40%;
     grid-template-rows: 20% 60% 20%;
