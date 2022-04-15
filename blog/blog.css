@@ -17,6 +17,18 @@
     min-width: 24em;
 }
 
+#second > .blog_image {
+    padding-left: 8em;
+}
+
+#third > .blog_image {
+    padding-left: 8em;
+}
+
+#fourth > .blog_image {
+    padding-left: 7em;
+}
+
 .blog {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
