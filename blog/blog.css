@@ -84,6 +84,7 @@ button.arrow {
     margin: 0;
     transform: rotate(225deg);
     transition: transform 1s;
+    cursor: pointer;
 }
 
 
