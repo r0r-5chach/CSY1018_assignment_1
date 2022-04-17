@@ -19,3 +19,7 @@ form {
     display: list-item;
 }
 
+input {
+    margin-top: 1em;
+}
+
