@@ -12,6 +12,7 @@ form {
 }
 
 input {
+    margin-top: 1em;
     border-radius: 1em;
     padding-left: 0.5em;
     background-color: #181a1b;
