@@ -1,0 +1,21 @@
+form {
+    padding-top: 2em;
+    min-width: 1em;
+    max-width: 25.8em;
+    margin: 0;
+}
+
+#contact_details > input {
+    min-width: 1em;
+    max-width: 30em;
+}
+
+#contact_body > textarea {
+    min-width: 1em;
+    max-width: 25.8em;
+}
+
+#contact_reason {
+    display: list-item;
+}
+

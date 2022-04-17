@@ -1,0 +1,14 @@
+.project {
+    margin: 0;
+    max-width: 25.6em;
+    border-radius: 0;
+    padding: 0;
+}
+
+.project > img {
+    max-width: 25em;
+}
+
+.project > video {
+    max-width: 25em;
+}

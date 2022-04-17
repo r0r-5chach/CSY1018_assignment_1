@@ -1,0 +1,9 @@
+.blog {
+    display: list-item;
+}
+
+.blog_post {
+    margin: 0;
+    padding: 0em;
+    border-radius: 0;
+}
