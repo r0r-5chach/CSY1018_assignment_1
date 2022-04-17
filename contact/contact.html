@@ -31,9 +31,9 @@
 
     <main>
         <a class="shownav" href="contact/contact.html#clicked"></a>
-        <form action="mailto:joshua.perry21@my.northampton.ac.uk?subject=Inquiry from website" method="POST">
+        <form action="mailto:joshua.perry21@my.northampton.ac.uk?subject=Inquiry" method="POST">
             <section id="contact_details">
-                <label for="contact_details">Contact Details</label>
+                <h2>Contact Details</h2>
                 <input type="text" name="first_name" placeholder="First name"/>
                 <input type="text" name="last_name" placeholder="Last name"/>
                 <input type="email" name="email_address" placeholder="Email address (e.g. someone@domain.com)"/>
@@ -41,8 +41,8 @@
             </section>
 
             <section id="contact_reason">
-                <label for="contact_reason" class="header">Reason for contacting:</label>
-                <section id="reason_answer">
+                <h2 class="header">Reason for contacting:</h2>
+                <div id="reason_answer">
                     <label for="business_radio" class="label">Business</label>
                     <input type="radio" checked="checked" name="contact_type" value="business" id="business_radio"/>
                     
@@ -51,12 +51,12 @@
                     
                     <label for="personal_radio" class="label">Personal</label>
                     <input type="radio" name="contact_type" value="personal" id="personal_radio"/>
-                </section>
+                </div>
             </section>
 
-            <section id="contact_body">
+            <div id="contact_body">
                 <textarea placeholder="Enter your message or query here..."></textarea>
-            </section>
+            </div>
             <input type="submit" name="submit" value="submit"/>
         </form>
     </main>
