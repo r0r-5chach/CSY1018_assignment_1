@@ -35,6 +35,10 @@
     gap: 1em;
 }
 
+.blog > h2 {
+    padding-top: 50em;
+}
+
 .blog_post#first:focus-within {
     transform: scale(180%, 180%) translate(20em, 6em);
     transition: transform 1s;
