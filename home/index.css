@@ -87,6 +87,7 @@
 
 .langList {
     margin-top: -1em;
+    margin-bottom: 2em;
     display: none;
     pointer-events: none;
 }

@@ -1,0 +1,15 @@
+.bio {
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+}
+
+.langList {
+    margin-left: -5em;
+    font-size: small;
+}
+
+.generalInfo {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
