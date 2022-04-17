@@ -4,7 +4,6 @@
 
 body {
     grid-template-areas: 
-    
     "main main main"
     "aside aside aside"
     "footer footer footer";
@@ -20,15 +19,12 @@ main {
     border-bottom-right-radius: 0em;
 }
 
-.bio {
-    border-top-left-radius: 0em;
-    border-bottom-left-radius: 0em;
-}
+
 
 .navigation {
     min-width: 10em;
     width: 200%;
-    height: 50vh;
+    height: 20em;
     white-space: nowrap;
     grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas:
@@ -111,24 +107,18 @@ nav > .link:hover {
     border-bottom: 0.1em solid #000000;
 }
 
-#home:hover {
-    border-right: none;
+footer {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 60%);
+    grid-area: footer;
+    display:list-item;
 }
 
-.navigation:hover {
-    transform: translate(-95%,0);
+footer > a > h1 {
+    margin: 0;
 }
 
-.generalInfo {
-    margin-top: 1em;
-    margin-left: 2em;
+#footer_logo {
+    margin-top: 3em;
 }
 
-.moreInfo:hover {
-    cursor: initial;
-}
-
-.langList {
-    margin-left: -5em;
-    font-size: small;
-}
