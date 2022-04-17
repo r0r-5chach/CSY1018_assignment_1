@@ -16,7 +16,6 @@
 }
 
 .profileImg {
-    content: url("../assets/images/profileImage.png");
     max-height: 20em;
     border: solid #f29602;
     border-radius: 1000%;
@@ -40,9 +39,6 @@
     text-align: left;
     margin-left: 6em;
     color: #E5E5E5;
-}
-
-.generalInfo > span {
     display: flex;
     align-items: center;
     font-size: x-large;
@@ -55,20 +51,23 @@
     font-size: xx-large;
 }
 
-.dropdown > span {
-    display: flex;
+.dropdown {
+    display: block;
+    margin-bottom: 3em;
 }
 
-.dropdown > span > a > h2 {
-    margin-top: 0.5em;
-    margin-left: 0.25em;
+.dropdown > a > h2 {
+    margin-top: 1em;
+    margin-left: 0.1em;
 }
 
-.dropdown > span > a {
+.dropdown > a {
     margin: 0;
+    margin-top: 1em;
     text-decoration: 0;
     color: #E5E5E5;
 }
+
 
 .dropdown > ul > li {
     margin-left: 1em;
@@ -76,7 +75,7 @@
     list-style: none;
 }
 
-.generalInfo > span > p {
+.generalInfo > p {
     margin-left: 0.5em;
 }
 
